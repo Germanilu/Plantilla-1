@@ -1,7 +1,10 @@
 @import "../../../utilities/variables.scss";
 
 .navbar{
-  width: 100%;
+  position: fixed;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 80%;
   background-color: $white;
   padding: 1rem 0rem;
   border-bottom: 2px solid $black;

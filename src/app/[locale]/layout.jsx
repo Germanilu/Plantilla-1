@@ -28,9 +28,7 @@ export default function RootLayout({ children, params }) {
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
             <ResponsiveLayout />
-            <Navbar />
             {children}
-            <Footer />
           </Providers>
         </NextIntlClientProvider>
       </body>
