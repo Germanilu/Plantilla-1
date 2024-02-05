@@ -31,6 +31,11 @@
       "unsuccess-alert":"Ahh, something went wrong. Please try again."
     },
     "Footer":{
-      "title": "Footer"
+      "first-paragraph": "Mon - Fri: 11am - 10pm​",
+      "second-paragraph": "Sat - Sun: 11am - 12am",
+      "third-paragraph": "500 Terry Francine Street​",
+      "fourth-paragraph": "San Fransisco, CA  94158",
+      "follow/us": "Follow us"
+      
     }
   }

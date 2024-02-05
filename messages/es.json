@@ -31,6 +31,11 @@
     "unsuccess-alert":"¡Ah, algo salió mal! Por favor, inténtalo de nuevo."
   },
   "Footer":{
-    "title": "Footer"
+    "first-paragraph": "Lun - Vie: 11am - 10pm​",
+    "second-paragraph": "Sab - Dom: 11am - 12am",
+    "third-paragraph": "500 Terry Francine Street​",
+    "fourth-paragraph": "San Fransisco, CA  94158",
+    "follow-us": "Follow us"
+    
   }
 }

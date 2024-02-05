@@ -29,6 +29,7 @@ export default function RootLayout({ children, params }) {
           <Providers>
             <ResponsiveLayout />
             {children}
+            <Footer/>
           </Providers>
         </NextIntlClientProvider>
       </body>
