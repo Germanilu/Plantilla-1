@@ -1,3 +1,8 @@
 $black      : #000;
 $white      : #fff;
-$onyx_grey  : #353935
+$onyx_grey  : #353935;
+
+@mixin button{
+    border:1px solid white;
+    padding: 1rem;
+}
