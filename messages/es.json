@@ -8,7 +8,10 @@
     "home": "Home",
     "about-us":"Sobre nosotros",
     "menu": "Menu",
-    "contact-us":"Contacto"
+    "contact-us":"Contacto",
+    "restaurant-name":"Sazón",
+    "welcome":"Bienvenido",
+    "text-1":"Bienvenido a nuestro espacio culinario. Disfruta de experiencias gastronómicas únicas, donde cada plato es una obra maestra diseñada para deleitar tus sentidos. ¡Descúbrelo hoy!"
   },
   "About":{
     "title":"Titulo pagina sobre nosotros"

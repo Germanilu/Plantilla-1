@@ -8,7 +8,10 @@
       "home": "Home",
       "about-us":"About",
       "menu": "Menu",
-      "contact-us":"Contact Us"
+      "contact-us":"Contact Us",
+      "restaurant-name":"Sazón",
+      "welcome":"Welcome",
+      "text-1":"Welcome to our culinary space. Enjoy unique gastronomic experiences, where each dish is a masterpiece designed to delight your senses. Discover it today!"
     },
     "About":{
       "title":"About main title"
@@ -35,7 +38,7 @@
       "second-paragraph": "Sat - Sun: 11am - 12am",
       "third-paragraph": "500 Terry Francine Street​",
       "fourth-paragraph": "San Fransisco, CA  94158",
-      "follow/us": "Follow us"
+      "follow-us": "Follow us"
       
     }
   }

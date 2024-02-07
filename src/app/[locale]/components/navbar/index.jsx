@@ -44,7 +44,9 @@ export default function Navbar() {
             </div>
           </nav>
           :
+          <>
           <nav className="navbar">
+            <p className='restaurant-name'>{t('restaurant-name')}</p>
             <ul className="navbar-list">
               <li className="list-item">
                 <Link className="item" href="/">{t('home')}</Link>
@@ -61,6 +63,12 @@ export default function Navbar() {
               <LanguageSwitcher />
             </ul>
           </nav>
+          <div className="navbar-menu-welcoming">
+              <span className='title'>{t('welcome')}</span>
+              <span className='text'>{t('text-1')}</span>
+              <div className="button">Menu</div>
+          </div>
+          </>
       }
     </>
   )
