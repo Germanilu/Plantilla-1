@@ -16,7 +16,6 @@
     min-width: 400px;
     text-align: center;
     font-size: 2.5rem;
-
   }
   .navbar-list{
     width: 50%;
@@ -59,32 +58,32 @@
   .navbar{
     padding: .5rem 0rem;
     border-bottom: none;
-    .menu-action{
-      margin-right: 1rem;
-      width: 100%;
-      display: flex; 
-      flex-direction: column;
-      align-items: flex-end;
-      .burger-menu-icon{
-        margin-right: .5rem;
-      }
-      .mobile-navbar-box{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .list-item{
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: right;
-          padding: .5rem 0rem;
-          margin-right: 2rem;
-          .item{
-            border-bottom: 1px solid $black;
-          }
-        }
-      }
+    height: 60px;
+    width: 100%;
+    margin-top: 0rem;
+    .restaurant-name{
+      min-width: 150px;
+      font-size: 2rem;
+    }
+  }
+  .navbar-menu-welcoming{
+    width: 100%;
+    height: 35%;
+    padding: 1rem;
+    top: 5%;
+    left: 0%;
+    justify-content: space-evenly;
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+      width: 90%;
+      line-height: 1.5rem;
+      font-size: .8rem;
+    }
+    .button{
+      @include button;
+      padding: .7rem 3rem;
     }
   }
 }
