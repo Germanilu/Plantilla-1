@@ -19,8 +19,8 @@ export default function Navbar() {
     <>
       {
         isMobile ?
-        <>
-          <nav className="navbar">
+        <div className='navbar'>
+          <nav className="navbar-menu">
             <p className='restaurant-name'>{t('restaurant-name')}</p>
             <div className='menu-action' onClick={() => setOpenMenu(!openMenu)}>
               {openMenu ? <RxCross2 className='burger-menu-icon' /> : <IoMenu className='burger-menu-icon' />}
@@ -52,10 +52,10 @@ export default function Navbar() {
               <Link className="item" href="/menu">{t('menu')}</Link>
             </div>
           </div>
-        </>
+        </div>
           :
-          <>
-          <nav className="navbar">
+          <div className='navbar'>
+          <nav className="navbar-menu">
             <p className='restaurant-name'>{t('restaurant-name')}</p>
             <ul className="navbar-list">
               <li className="list-item">
@@ -80,7 +80,7 @@ export default function Navbar() {
                 <Link className="item" href="/menu">{t('menu')}</Link>
               </div>
           </div>
-          </>
+          </div>
       }
     </>
   )
