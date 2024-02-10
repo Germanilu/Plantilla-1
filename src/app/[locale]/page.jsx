@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className='home-design'>
-      <Navbar/>
+      <Navbar home={true}/>
       <div className="img">
         <Image src={hero} className="img"/>
       </div>

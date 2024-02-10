@@ -10,11 +10,11 @@ import { RxCross2 }         from "react-icons/rx";
 
 import './index.scss';
 
-export default function Navbar() {
+export default function Navbar({home}) {
   const t                       = useTranslations("Navbar");
   const [openMenu, setOpenMenu] = useState(false);
   const isMobile = useSelector(state => state.responsive.isMobile);
-
+  
   return (
     <>
       {
@@ -73,6 +73,8 @@ export default function Navbar() {
               <LanguageSwitcher />
             </ul>
           </nav>
+          {
+            home &&
           <div className="navbar-menu-welcoming">
               <span className='title'>{t('welcome')}</span>
               <span className='text'>{t('text-1')}</span>
@@ -80,6 +82,7 @@ export default function Navbar() {
                 <Link className="item" href="/menu">{t('menu')}</Link>
               </div>
           </div>
+          }
           </div>
       }
     </>

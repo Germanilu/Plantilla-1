@@ -1,8 +1,24 @@
 @import "../../utilities/variables.scss";
 
+
 .menu-design{
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    .img{
+      position: absolute;
+      width: 100%;
+      height: 120vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .prueba{
+        width: 100%;
+        height: 200px;
+        border: 1px solid red;
+        background: red;
+        width: 95%;
+        margin: 0 auto;
+    }
+  }
