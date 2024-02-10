@@ -1,6 +1,14 @@
+//Colors
+
 $black      : #000;
 $white      : #fff;
 $onyx_grey  : #353935;
+
+//Font 
+$paragraph-size : 1rem;
+$small-size: .7rem;
+
+//Mixins
 
 @mixin button{
     border:1px solid white;

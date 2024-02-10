@@ -6,26 +6,32 @@ export default function Footer(){
 
   const t = useTranslations("Footer");
 
+  const year = () => {
+    const today = new Date();
+    return today.getFullYear()
+  }
+
   return (
     <div className="footer-design">
       <div className="containers-details">
           <div className="info">
-            <span>{t('first-paragraph')}</span>
-            <span>{t('second-paragraph')}</span>
+            <span className="text">{t('first-paragraph')}</span>
+            <span className="text">{t('second-paragraph')}</span>
           </div>
           <div className="info">
-            <span>{t('third-paragraph')}</span>
-            <span>{t('fourth-paragraph')}</span>
+            <span className="text">{t('third-paragraph')}</span>
+            <span className="text">{t('fourth-paragraph')}</span>
           </div>
           <div className="info">
-            <span>{t('follow-us')}</span>
+            <span className="text">{t('follow-us')}</span>
             <div className="icons">
-            <FaTwitter />
-            <FaFacebookF />
-            <FaInstagram />
+            <FaTwitter size={25}/>
+            <FaFacebookF size={25}/>
+            <FaInstagram size={25}/>
             </div>
           </div>
       </div>
+      <div className="design-firm"> {t('register-simbol')} {year()} {t('register-text')}</div>
     </div>
   ) 
 }
