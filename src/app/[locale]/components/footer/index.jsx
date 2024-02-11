@@ -1,5 +1,5 @@
-import { useTranslations }      from "next-intl";
-import { FaFacebookF, FaTwitter,FaInstagram } from "react-icons/fa";
+import { useTranslations }                      from "next-intl";
+import { FaFacebookF, FaTwitter,FaInstagram }   from "react-icons/fa";
 import './index.scss'
 
 export default function Footer(){

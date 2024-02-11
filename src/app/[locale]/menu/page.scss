@@ -1,24 +1,83 @@
 @import "../../utilities/variables.scss";
 
-
-.menu-design{
-    height: 100vh;
-      width: 100%;
+.menu-design {
+  width: 100%;
+  .menu-container {
+    width: 95%;
+    opacity: 0;
+    animation: opacity ease-in 1s forwards;
+    background: $black;
+    color: $white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .description{
+      width: 30%;
+      margin: 0 auto;
+      margin-top: 5rem;
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
-    .img{
-      position: absolute;
-      width: 100%;
-      height: 120vh;
-      object-fit: cover;
-      z-index: -1;
+      gap: 1rem;
+      .title{
+        font-size: 2rem;
+      }
+      .text{
+        text-align: center;
+        font-size: $paragraph-size;
+      }
     }
-    .prueba{
+    .dishes-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5rem;
+      row-gap: 4rem;
+      column-gap: 2rem;
+      padding: 0rem 2rem;
+      margin-bottom: 2rem;
+
+      &.last{
+        margin-bottom: 5rem;
+      }
+      .starters{
         width: 100%;
-        height: 200px;
-        border: 1px solid red;
-        background: red;
-        width: 95%;
-        margin: 0 auto;
+        text-align: center;
+        font-size: 1.6rem;
+      }
+      .box{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        .box-title{
+          font-size: 1.2rem;
+          text-align: center;
+          font-weight: bold;
+        }
+        .box-description{
+          font-size: 1rem;
+          text-align: center;
+          padding: 0rem 1rem;
+        }
+      }
     }
   }
+}
+
+
+
+@keyframes opacity {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+  
+}
