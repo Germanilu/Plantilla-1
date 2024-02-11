@@ -37,3 +37,28 @@
         font-size: $small-size;
     }
 }
+
+
+@media screen and (max-width: '767px') {
+    .footer-design{
+        width:100%;
+        .containers-details{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 3rem;
+            .info{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: .5rem;
+                width: 80%;
+                .text{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+    
+}
