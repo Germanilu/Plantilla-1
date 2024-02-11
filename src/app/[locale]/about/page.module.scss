@@ -1,0 +1,36 @@
+@import "../../utilities/variables.scss";
+
+.aboutDesign{
+    display: flex;
+    flex-direction: column;
+    .ourStory{
+        width: 95%;
+        min-height: 400px;
+        background-color: $black;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        border-top: 2px solid $white;
+        .title,.text{
+            color: $white;
+            text-align: center;
+            width: 40%;
+        }
+        .title{
+            font-size: 2rem;
+        } 
+    }
+    .imgBackgroundBig{
+        border-top: 2px solid white;
+        width: 95%;
+        margin: 0 auto;
+        height: 600px;
+        background-image: url("../../../../public//media/gastro-pub.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
