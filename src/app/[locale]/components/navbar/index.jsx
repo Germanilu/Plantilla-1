@@ -45,13 +45,16 @@ export default function Navbar({home}) {
               }
             </div>
           </nav>
-          <div className="navbar-menu-welcoming">
-            <span className='title'>{t('welcome')}</span>
-            <span className='text'>{t('text-1')}</span>
-            <div className="button">
-              <Link className="item" href="/menu">{t('menu')}</Link>
+          {
+            home &&
+            <div className="navbar-menu-welcoming">
+              <span className='title'>{t('welcome')}</span>
+              <span className='text'>{t('text-1')}</span>
+              <div className="button">
+                <Link className="item" href="/menu">{t('menu')}</Link>
+              </div>
             </div>
-          </div>
+          }
         </div>
           :
           <div className='navbar'>

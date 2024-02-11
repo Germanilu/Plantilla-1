@@ -16,7 +16,7 @@ export default function Menu(){
         </div>
 
         <div className="dishes-container">
-          <span className='starters'>Starters</span>
+          <span className='dishes'>Starters</span>
           {
             map(menu.starters,(plate) => {
               return(
@@ -30,7 +30,7 @@ export default function Menu(){
             }
         </div>
         <div className="dishes-container last">
-          <span className='starters'>Main Courses</span>
+          <span className='dishes'>Main Courses</span>
           {
             map(menu.main,(plate) => {
               return(
