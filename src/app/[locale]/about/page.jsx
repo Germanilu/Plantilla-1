@@ -3,7 +3,7 @@
 import { useTranslations }  from "next-intl";
 import Navbar               from '../components/navbar/index';
 import style from './page.module.scss';
-
+import ScrollToTop from '@/app/[locale]/components/scroll-to-top';
 export default function About(){
   const t = useTranslations("About");
   return (
@@ -26,6 +26,7 @@ export default function About(){
       <div className={style.imgBackgroundSmall}></div>
       <div className={style.imgBackgroundSmall1}></div>
       </div>
+      <ScrollToTop/>
       </div>
   ) 
 }
