@@ -2,8 +2,8 @@
 
 import { useTranslations }  from "next-intl";
 import Navbar               from '../components/navbar/index';
-// import './page.scss';
-import style from './page.module.scss'
+import style from './page.module.scss';
+
 export default function About(){
   const t = useTranslations("About");
   return (
@@ -21,6 +21,10 @@ export default function About(){
         <div className={style.text}>
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident asperiores accusamus voluptatum, fuga voluptate minus dolorem voluptas cupiditate atque sequi. Quisquam, itaque! Aperiam iste doloremque quam dicta doloribus ipsa ea!
         </div>
+      </div>
+      <div className={style.container}>
+      <div className={style.imgBackgroundSmall}></div>
+      <div className={style.imgBackgroundSmall1}></div>
       </div>
       </div>
   ) 
