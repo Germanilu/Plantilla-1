@@ -33,4 +33,25 @@
         background-attachment: fixed;
         background-size: cover;
     }
+
+    .containerImages{ 
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        .imgBackgroundSmall, .imgBackgroundSmall2{
+            border-bottom: 1px solid $white;
+            border-top: 2px solid $white;
+            width: 50%;
+            height: 600px;
+            background-image: url("../../../../public//media/1.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .imgBackgroundSmall2{
+            background-image: url("../../../../public//media/hamburger.jpg");
+            border-left: 2px solid $white;
+        }
+
+    }
 }
