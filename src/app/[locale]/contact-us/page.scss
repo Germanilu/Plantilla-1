@@ -1,9 +1,27 @@
 @import "../../utilities/variables.scss";
 
 .contact-us-design{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    .contact-first-box{
+        width: 95%;
+        margin: 0 auto;
+        height: 300px;
+        background-color: $black;
+    }
+    .contact-img{
+        width: 95%;
+        margin: 0 auto;
+        height: 600px;
+        background-image: url("../../../../public//media/gastro-pub.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .contact-box{
+        background-color: $black;
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 0rem;
+    }
 }
