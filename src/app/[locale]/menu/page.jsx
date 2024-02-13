@@ -1,8 +1,9 @@
 'use client';
 
-import Navbar       from '../components/navbar/index';
-import {get,map}        from 'lodash';
+import {get,map}    from 'lodash';
 import {menu}       from '@/assets/menu/index';
+import Navbar       from '../components/navbar/index';
+import ScrollToTop  from '@/app/[locale]/components/scroll-to-top';
 import './page.scss';
 
 export default function Menu(){
@@ -44,6 +45,7 @@ export default function Menu(){
             }
         </div>
       </div>
+      <ScrollToTop/>
     </div>
   ) 
 }
