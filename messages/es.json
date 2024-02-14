@@ -17,7 +17,9 @@
     "title":"Titulo pagina sobre nosotros"
   },
   "Contact-us":{
-    "title":"Contacta con nosotros Titulo"
+    "title":"Contacta con nosotros Titulo",
+    "third-paragraph": "500 Terry Francine Street​",
+    "fourth-paragraph": "San Fransisco, CA  94158"
   },
   "Contact-us-component":{
     "title":"Contacto",
