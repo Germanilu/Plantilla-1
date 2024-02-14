@@ -120,7 +120,6 @@ export default function Map(){
             stylers: [{ color: "#17263c" }],
           },
         ],
-        mapId: 'MY_NEXTJS_MAPID',
         
       }
 
