@@ -1,0 +1,26 @@
+.booking-design{
+    color: white;
+    border: 1px solid white;
+    width: 70%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .reserva-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        color: white;
+        width: 33%;
+        gap: 2rem;
+        padding: 2rem;
+
+        .input{
+            all: none;
+        }
+    }
+    
+}

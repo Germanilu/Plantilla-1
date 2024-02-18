@@ -6,6 +6,22 @@
         margin: 0 auto;
         height: 400px;
         background-color: $black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        .booking-desc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            .booking-title{
+                font-size: 2rem;
+            }
+        }
     }
     .contact-img{
         width: 95%;

@@ -1,7 +1,8 @@
 import { useTranslations }  from "next-intl";
 import Contact              from '../components/contact/index';
 import Navbar               from '../components/navbar/index';
-import Map               from '../components/google-map-location/index';
+import Booking              from '../components/booking/index'
+import Map                  from '../components/google-map-location/index';
 import { FaFacebookF, FaTwitter,FaInstagram }   from "react-icons/fa";
 import './page.scss'
 
@@ -10,7 +11,12 @@ export default function ContactUs(){
   return (
     <div className="contact-us-design">
       <Navbar home={false}/>
-      <div className="contact-first-box"></div>
+      <div className="contact-first-box">
+        <div className="booking-desc">
+          <span className="booking-title">Reserva una mesa</span>
+          <span>Select your details and we’ll try to get the best seats for you!</span></div>
+        <Booking/>
+      </div>
       <div className="contact-img"></div>
       <div className="contact-box">
         <div className="information-contact-box">
