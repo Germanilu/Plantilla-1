@@ -13,7 +13,9 @@ export default function Contact() {
   //State
   const [form, setForm] = useState({
     name: "",
+    surname: "",
     email: "",
+    phone: "",
     message: "",
   });
 
@@ -54,7 +56,9 @@ export default function Contact() {
 
           setForm({
             name: "",
+            surname:"",
             email: "",
+            phone: "",
             message: "",
           });
         },
@@ -68,10 +72,7 @@ export default function Contact() {
 
 
   return (
-    <div className='contact-design' >
       <div className="contact-form">
-        <p className='text'>{t('title')}</p>
-        <h3 className='subtitle'>{t('subtitle')}</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -84,7 +85,16 @@ export default function Contact() {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder={t('name-placeholder')}
+              className='input'
+            />
+          </label>
+          <label className='form-label'>
+            <span className='surname'>{t('surname-tag')}</span>
+            <input
+              type='text'
+              surname='surname'
+              value={form.surname}
+              onChange={handleChange}
               className='input'
             />
           </label>
@@ -95,18 +105,26 @@ export default function Contact() {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder={t('email-placeholder')}
               className='input'
             />
           </label>
           <label className='form-label'>
+            <span className='phone'>{t('phone-tag')}</span>
+            <input
+              type='phone'
+              name='phone'
+              value={form.phone}
+              onChange={handleChange}
+              className='input'
+            />
+          </label>
+          <label className='form-label textarea'>
             <span className='message'>{t('message-tag')}</span>
             <textarea
-              rows={7}
+              rows={3}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder={t('message-placeholder')}
               className='input textarea'
             />
           </label>
@@ -119,6 +137,6 @@ export default function Contact() {
           </button>
         </form>
       </div>
-    </div>
+
   )
 }

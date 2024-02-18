@@ -1,47 +1,51 @@
 @import "../../../utilities/variables.scss";
 
-.contact-design{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content:center;
-  align-items: center;
+
   .contact-form{
       padding: 2rem;
-      border: 1px solid $onyx_grey;
       position: relative;
       padding-left: 3rem;
-      min-width: 30%;
-      .text, .subtitle{
-          color: $onyx_grey;
-          font-size: 1.5rem;
-      }
-      .subtitle{
-        margin-bottom: 1rem;
-      }
+      width: 30%;
       .form{
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
+          flex-wrap: wrap;
           gap: 1rem;
           .form-label{
               display: flex;
               justify-content: space-between;
               flex-direction: column;
+              align-items: center;
+              width: 45%;
+              &.textarea{
+                width: 100%;
+              }
+              .name, .surname, .phone, .email, .message{
+                color: $white;
+                margin-bottom: .5rem;
+              }
               .input{
                   all: unset;
-                  border-bottom: 1px solid $onyx_grey;
-                  width: 50%;
+                  border-bottom: 1px solid $white;
+                  width: 100%;
+                  color: $white;
               }
               .textarea{
                   width: 90%;
-                  border: 1px solid $onyx_grey;
               }
           }
       }
       .button{
+          all: unset;
           width: 50%;
+          margin: 0 auto;
+          @include button;
+          color: $white;
+          text-align: center;
+          padding: 1rem 4rem;
+          margin-top: 2rem;
       }
   }
-}
 
 
 @media (max-width:1024px){
