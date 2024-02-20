@@ -1,3 +1,5 @@
+@import "../../../utilities/variables.scss";
+
 .booking-design{
     color: white;
     border: 1px solid white;
@@ -12,15 +14,20 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
         color: white;
         width: 33%;
         gap: 2rem;
         padding: 2rem;
-
         .input{
-            all: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            padding: .3rem 1rem;
+            border: 3px solid white;
         }
     }
-    
+}
+.button{
+    @include button;
+    margin: 1rem auto;
 }

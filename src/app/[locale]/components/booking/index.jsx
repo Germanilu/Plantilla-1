@@ -9,6 +9,7 @@ import './index.scss';
 export default function Booking() {
 
     return (
+        <>
         <div className="booking-design">
 
             <div class="reserva-item">
@@ -29,13 +30,13 @@ export default function Booking() {
 
             <div class="reserva-item">
                 <label for="fecha">Fecha de reserva:</label>
-                <input type="date" id="fecha" name="fecha"></input>
+                <input type="date" id="fecha" name="fecha" className="input"></input>
             </div>
 
             <div class="reserva-item">
                 <label for="horario">Horario de reserva:</label>
-                <select id="horario" name="horario">
-                    <option value="15:00">15:00</option>
+                <select id="horario" name="horario" className="input">
+                    <option value="15:00" >15:00</option>
                     <option value="15:30">15:30</option>
                     <option value="16:00">16:00</option>
                     <option value="16:30">16:30</option>
@@ -53,6 +54,9 @@ export default function Booking() {
                 </select>
             </div>
 
+
         </div>
+            <div className="button">Reserva</div>
+        </>
     )
 }
