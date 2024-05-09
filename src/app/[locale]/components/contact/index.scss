@@ -49,11 +49,11 @@
 
 
 @media (max-width:1024px){
-  .contact-us{
-      .contact-form{
-          width: 50%;
-      }
-  }
+    .contact-form{
+        width: 100%;
+        margin-top: 2rem;
+        border: 1px solid white;
+    }
 }
 
 @media (max-width:425px){

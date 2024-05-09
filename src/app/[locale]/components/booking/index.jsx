@@ -13,7 +13,7 @@ export default function Booking() {
         <div className="booking-design">
 
             <div class="reserva-item">
-                <label for="comensales">Número de comensales:</label>
+                <label class="reserva-label" for="comensales">Número de comensales:</label>
                 <select id="comensales" name="comensales" className="input">
 
                     <option value="2">2 personas</option>

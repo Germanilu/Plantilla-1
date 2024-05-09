@@ -14,7 +14,7 @@ export default function ContactUs(){
       <div className="contact-first-box">
         <div className="booking-desc">
           <span className="booking-title">{t('reserve')}</span>
-          <span>{t('reserve-subtitle')}</span></div>
+          <span className="booking-subtitle">{t('reserve-subtitle')}</span></div>
         <Booking/>
       </div>
       <div className="contact-img"></div>

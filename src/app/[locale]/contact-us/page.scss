@@ -70,3 +70,42 @@
         height: 400px;
     }
 }
+
+
+
+@media (max-width:1024px){
+    .contact-us-design{
+        .contact-first-box{
+            width: 100%;
+            height: max-content;
+            .booking-desc{
+                .booking-title{
+                    margin-top: 3rem;
+                }
+                .booking-subtitle{
+                    font-size: 1rem;
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+        .contact-img{
+            width: 100%;
+        }
+        .contact-box{
+            width: 100%;
+            flex-direction: column;
+
+            .information-contact-box{
+                width: 100%;
+                .contact-main-title{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .google-maps-container{
+            width: 100%;
+        }
+    }
+}
