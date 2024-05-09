@@ -17,7 +17,11 @@
       "title":"About main title"
     },
     "Contact-us":{
-      "title":"Contact Us TITLE",
+      "reserve": "Reserve a table",
+      "reserve-subtitle":"Select your details and we’ll try to get the best seats for you!",
+      "contact-main-title":"We would love to hear from you",
+      "telef":"Tel: 666666666",
+      "mail":"info@mysite.com",
       "third-paragraph": "500 Terry Francine Street​",
       "fourth-paragraph": "San Fransisco, CA  94158"
     },

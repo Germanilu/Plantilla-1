@@ -17,7 +17,11 @@
     "title":"Titulo pagina sobre nosotros"
   },
   "Contact-us":{
-    "title":"Contacta con nosotros Titulo",
+    "reserve": "Reserva una mesa",
+    "reserve-subtitle":"Introduce tus detalles y trataremos de conseguirte los mejores asientos!",
+    "contact-main-title":"Nos encantaría saber de ti.",
+    "telef":"Tel: 666666666",
+    "mail":"info@mysite.com",
     "third-paragraph": "500 Terry Francine Street​",
     "fourth-paragraph": "San Fransisco, CA  94158"
   },

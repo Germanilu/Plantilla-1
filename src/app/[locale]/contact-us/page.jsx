@@ -13,17 +13,17 @@ export default function ContactUs(){
       <Navbar home={false}/>
       <div className="contact-first-box">
         <div className="booking-desc">
-          <span className="booking-title">Reserva una mesa</span>
-          <span>Select your details and we’ll try to get the best seats for you!</span></div>
+          <span className="booking-title">{t('reserve')}</span>
+          <span>{t('reserve-subtitle')}</span></div>
         <Booking/>
       </div>
       <div className="contact-img"></div>
       <div className="contact-box">
         <div className="information-contact-box">
-          <span className="contact-main-title">We would love to hear from you</span>
+          <span className="contact-main-title">{t('contact-main-title')}</span>
           <div className="phone-email">
-            <span>Tel: 666666666</span>
-            <span>info@mysite.com</span>
+            <span>{t('telef')}</span>
+            <span>{t('mail')}</span>
           </div>
           <div className="street">
           <span className="text">{t('third-paragraph')}</span>
