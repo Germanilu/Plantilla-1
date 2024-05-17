@@ -51,5 +51,17 @@
     "follow-us": "Follow us",
     "register-simbol":"©",
     "register-text":"Design by FlavourFrame"
+  },
+  "Booking":{
+    "name":"Nombre",
+    "phone":"Telefono",
+    "people": "Número de comensales:",
+    "date-reserve": "Fecha de reserva:",
+    "hour-reserve": "Horario de reserva:",
+    "reserve":"Reserva",
+    "send": "Enviar",
+    "loading":"Cargando",
+    "success-alert":"Gracias. Nos pondremos en contacto contigo tan pronto como sea posible",
+    "unsuccess-alert":"¡Ah, algo salió mal! Por favor, inténtalo de nuevo."
   }
 }

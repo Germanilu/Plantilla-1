@@ -50,7 +50,18 @@
       "fourth-paragraph": "San Fransisco, CA  94158",
       "follow-us": "Follow us",
       "register-simbol":"©",
-      "register-text":"Design by FlavourFrame"
-      
+      "register-text":"Design by FlavourFrame"  
+    },
+    "Booking": {
+      "name": "Name",
+      "phone": "Phone",
+      "people": "Number of guests:",
+      "date-reserve": "Reservation date:",
+      "hour-reserve": "Reservation time:",
+      "reserve": "Reserve",
+      "send": "Send",
+      "loading": "Loading",
+      "success-alert": "Thank you. We will contact you as soon as possible.",
+      "unsuccess-alert": "Oh, something went wrong! Please try again."
     }
   }
