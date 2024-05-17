@@ -96,13 +96,13 @@ export default function Booking() {
   return (
     <>
       <div className="booking-design">
-        <div class="reserva-item">
+        <div className="reserva-item">
           <label for="horario">{t('name')}</label>
-          <input type="text" name="name" id="name" placeholder="Nombre" value={form.name} onChange={handleChange} />
+          <input className="input" type="text" name="name" id="name" placeholder="Nombre" value={form.name} onChange={handleChange} />
         </div>
         <div class="reserva-item">
           <label for="horario">{t('phone')}</label>
-          <input type="text" name="phone" id="phone" placeholder="Telefono" value={form.phone} onChange={handleChange} />
+          <input className="input" type="text" name="phone" id="phone" placeholder="Telefono" value={form.phone} onChange={handleChange} />
         </div>
 
         <div class="reserva-item">

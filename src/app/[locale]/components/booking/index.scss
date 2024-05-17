@@ -1,49 +1,59 @@
 @import "../../../utilities/variables.scss";
 
-.booking-design{
+.booking-design {
+  color: white;
+  border: 1px solid white;
+  width: 70%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  .reserva-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 33%;
+    gap: 2rem;
+    padding: 2rem;
+
+    .input {
+      border:none;
+      background-image:none;
+      background-color:transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      color: white;
+      background-color: black
+    }
+    .input:focus {
+      outline: none;
+  }
+  }
+}
+
+.button {
+  @include button;
+  margin: 1rem auto;
+}
+
+@media (max-width:1024px) {
+  .booking-design {
     color: white;
     border: 1px solid white;
-    width: 70%;
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
 
-    .reserva-item{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        width: 33%;
-        gap: 2rem;
-        padding: 2rem;
-        .input{
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            padding: .3rem 1rem;
-            border: 3px solid white;
-        }
-    }
-}
-.button{
-    @include button;
-    margin: 1rem auto;
-}
+    .reserva-item {
+      width: 50%;
+      padding: 1rem;
 
-@media (max-width:1024px){
-    .booking-design{
-        color: white;
-        border: 1px solid white;
-        width: 100%;    
-        flex-wrap: wrap;
-        .reserva-item{
-            width: 50%;
-            padding: 1rem;
-            .reserva-label{
-                text-align: center;
-            }
-        }
+      .reserva-label {
+        text-align: center;
+      }
     }
+  }
 }
